@@ -1,0 +1,42 @@
+{
+  "bookSourceComment": "",
+  "bookSourceGroup": "",
+  "bookSourceName": "🚬 鱼鱼中文网",
+  "bookSourceType": 0,
+  "bookSourceUrl": "http://m.yuyuzw.com",
+  "bookUrlPattern": "",
+  "customOrder": -304784,
+  "enabled": true,
+  "enabledExplore": true,
+  "exploreUrl": "最新入库::http://m.yuyuzw.com/top/postdate_{{page}}/\n最新更新::http://m.yuyuzw.com/top/lastupdate_{{page}}/\n总点击榜::http://m.yuyuzw.com/top/allvisit_{{page}}/\n总收藏榜::http://m.yuyuzw.com/top/goodnum_{{page}}/\n总字数榜::http://m.yuyuzw.com/top/size_{{page}}/\n总推荐榜::http://m.yuyuzw.com/top/allvote_{{page}}/\n全本小说::http://www.yuyuzw.com/full/{{page}}/\n玄幻奇幻::http://www.yuyuzw.com/fenlei/1-{{page}}.html\n武侠仙侠::http://w.yuyuzw.com/fenlei/2-{{page}}.html\n都市言情::http://www.yuyuzw.com/fenlei/3-{{page}}.html\n历史军事::http://www.yuyuzw.com/fenlei/4-{{page}}.html\n游戏竞技::http://www.yuyuzw.com/fenlei/5-{{page}}.html\n科幻灵异::http://www.yuyuzw.com/fenlei/6-{{page}}.html\n其他小说::http://www.yuyuzw.com/fenlei/7-{{page}}.html",
+  "lastUpdateTime": 1637669473336,
+  "loginUrl": "",
+  "respondTime": 21461,
+  "ruleBookInfo": {
+    "coverUrl": "class.block_img2@img@src||class.myinfol@img@src",
+    "intro": "class.intro_info@textNodes||id.mycon1@p@textNodes",
+    "lastChapter": "class.block_txt2@tag.p.6@a@text||class.stats.1@a@text",
+    "tocUrl": "text.全文目录@href##^##http://www.yuyuzw.com"
+  },
+  "ruleContent": {
+    "content": "id.contents@textNodes",
+    "nextContentUrl": "text.下一页@href"
+  },
+  "ruleExplore": {},
+  "ruleSearch": {
+    "author": "tag.p.2@text||textNodes##\\[.*\\]",
+    "bookList": "class.cover@p||class.con_l_body@li",
+    "bookUrl": "a@href",
+    "coverUrl": "a@href##.*/book/(\\d+)(\\d{3})/##http://pic.yuyuzw.com/image/$1/$1$2/$1$2s.jpg",
+    "kind": "text##\\[|\\].*|.*-.*",
+    "lastChapter": "tag.p.1@a@text",
+    "name": "tag.p.0@a@text"
+  },
+  "ruleToc": {
+    "chapterList": "class.dirlist clearfix@li@a",
+    "chapterName": "text",
+    "chapterUrl": "href"
+  },
+  "searchUrl": "http://m.yuyuzw.com/s.php,{\n  \"charset\": \"gbk\",\n  \"body\": \"type=articlename&s={{key}}&submit=\",\n  \"method\": \"POST\"\n}",
+  "weight": 0
+}
